@@ -21,7 +21,7 @@ please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.co
 Then install it via:
 
 ```shell
-npm install sum_up_rest_api --save
+npm install sumup-rest-api --save
 ```
 
 #### git
