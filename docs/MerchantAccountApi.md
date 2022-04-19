@@ -19,7 +19,7 @@ Retrives bank accounts of the merchant.
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -68,7 +68,7 @@ Retrieves Doing Business As profile.
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -111,7 +111,7 @@ Retrieves merchant profile data.
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -154,7 +154,7 @@ Retrieves merchant settings.
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken

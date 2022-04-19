@@ -20,7 +20,7 @@ Lists created checkout resources according to the applied &#x60;checkout_referen
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -69,7 +69,7 @@ Deactivates an identified checkout resource. If the checkout has already been pr
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -117,7 +117,7 @@ Retrieves an identified checkout resource. Use this request after processing a c
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -165,7 +165,7 @@ Processing a checkout will attempt to charge the provided payment instrument for
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 
 let apiInstance = new SumUpRestApi.CheckoutsApi();
 let id = "id_example"; // String | Unique ID of the checkout resource.
@@ -211,7 +211,7 @@ Creates a new payment checkout resource. The unique &#x60;checkout_reference&#x6
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken

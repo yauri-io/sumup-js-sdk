@@ -17,7 +17,7 @@ Request authorization from users and grant your application access to resources 
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 
 let apiInstance = new SumUpRestApi.AuthorizationApi();
 let opts = { 
@@ -69,7 +69,7 @@ Generate a token or a refresh token
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 
 let apiInstance = new SumUpRestApi.AuthorizationApi();
 let opts = { 

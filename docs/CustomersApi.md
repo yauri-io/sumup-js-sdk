@@ -21,7 +21,7 @@ Retrieves an identified saved customer resource through the unique &#x60;custome
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -69,7 +69,7 @@ Lists all payment instrument resources that are saved for an identified customer
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -117,7 +117,7 @@ Creates and activates a new payment instrument resource by saving a payment card
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -168,7 +168,7 @@ Deactivates an identified card payment instrument resource for a customer.
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -218,7 +218,7 @@ Updates an identified saved customer resource&#x27;s personal details.   The req
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -269,7 +269,7 @@ Creates a new saved customer resource which you can later manipulate and save pa
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken

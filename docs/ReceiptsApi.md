@@ -16,7 +16,7 @@ Retrieves receipt specific data for a transaction.
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken

@@ -17,7 +17,7 @@ Retrieves the full details of an identified transaction. The transaction resourc
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
@@ -70,7 +70,7 @@ Lists detailed history of all transactions associated with the merchant account.
 
 ### Example
 ```javascript
-import {SumUpRestApi} from 'sum_up_rest_api';
+import {SumUpRestApi} from 'sumup-rest-api';
 let defaultClient = SumUpRestApi.ApiClient.instance;
 
 // Configure OAuth2 access token for authorization: accessToken
